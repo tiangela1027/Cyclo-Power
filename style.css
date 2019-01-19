@@ -1,0 +1,318 @@
+html {
+    background-color: darkseagreen;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: url(images/picture.jpg);
+    background-size: contain;
+}
+
+/* header styles */
+
+header h1 {
+    background-color: white;
+    padding-left: 30px;
+    margin: 10px 20px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.slogan {
+    color: darkseagreen;
+    font-size: 20px;
+}
+
+.profile h2 {
+    color: darkseagreen;
+    font-size: 20px;
+}
+
+.message {
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    margin: 10px;
+    font-weight: normal;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.subpage {
+    color: darkgray;
+}
+
+header a:hover{
+    color: darkseagreen;
+    transition: 0.5s;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h2 {
+    color: gray;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+p {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.subpage {
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+sidebar {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile,
+.lottery {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    height: 50%;
+    padding: 5px;
+}
+
+.ldbd {
+    margin: 15px 0;
+}
+
+.profile {
+    border-radius: 10px;
+}
+
+.lottery {
+    margin-top: 10px;
+    overflow: scroll;
+}
+
+.right {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    width: 10%;
+    overflow: scroll;
+    align-content: center;
+}
+
+#stats {
+    padding: 0;
+    font-size: 15px;
+}
+
+#stats li span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.lottery h2 {
+    padding: 0;
+}
+
+.center {
+    overflow: auto;
+    background-color: white;
+    width: 70%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    flex-grow: 2;
+    margin: 20px;
+}
+
+.daysofweek i, .achievements i {
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+.center-img, .trophy-img, .links img {
+    width: 50px;
+    height: 50px;
+}
+
+sidebar,
+.right,
+.center {
+    margin: 5px 20px;
+    height: 500px;
+    padding: 10px;
+}
+
+.center-img,
+.profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: dashed;
+}
+
+select,
+td,
+th {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lottery {
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ldbd ol {
+    text-align: left;
+}
+
+.center-img {
+    width: 100%;
+    height: 100%;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+}
+
+.routestats {
+    text-align: center;
+}
+
+#index {
+    text-align: center;
+}
+
+.daysofweek {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.d-prizes, .w-prizes {
+    margin: 0;
+}
+
+.d-prizes li, .w-prizes li {
+    font-size: 15px;
+}
+
+.routestats h2 {
+    padding: 10px;
+}
+.routestats h3 {
+    margin: 0;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.trophy-img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+a,
+a:hover {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.links {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+
+.links img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.links img:hover {
+    opacity: 1;
+}
+
+button {
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+}
